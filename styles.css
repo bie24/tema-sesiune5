@@ -1,0 +1,97 @@
+body{
+    background: radial-gradient(circle,rgba(251,255,250,1) , rgb(189, 231, 204));
+}
+
+h1{
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    margin: 0.1rem 1rem;
+}
+
+.box1{
+    width: 45rem;
+    min-height: calc(100vh - 2.875rem);
+    padding: 0.8rem;
+    background: rgba(168, 192, 255,0.2);
+    margin-inline: auto;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(127, 127, 127,0.3);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem; 
+}
+
+nav a{  
+    color: black;
+    padding: 0.5rem 1.1rem;
+    margin-inline-end: 0.5rem;
+    border-radius: 2rem;
+    border-inline-end: 0.4rem solid black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(255, 148, 148);
+}
+
+.text h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    color: rgb(39,45,56);
+    margin-block-end: 1.5rem;
+}
+
+.text p{
+    color: rgb(39,45,56);
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.info{
+    display: flex;
+    margin-inline-start: 1rem;
+}
+
+.text a{
+    background-color: rgb(142,173,213);
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 0.7rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-block-start: 1.5rem;
+}
+
+img{
+    height:20rem;
+    width:auto;
+    margin-inline-end: 0.5rem;
+    margin-block-end: 1rem;
+}
+
+.box2{
+    box-sizing: border-box;
+    width:43rem;
+    height: 17rem;
+    padding-inline: 1rem;
+    background: transparent;
+    margin: auto;
+    border: 0.1rem solid black;
+}
+
+.text2{
+    font-size: 1.2rem;
+}
